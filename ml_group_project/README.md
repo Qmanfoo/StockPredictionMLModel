@@ -1,116 +1,13 @@
-# Project Assignments 
+# Predicting the Stock Race ML Model (2014-2018)
 
-* [Project Proposal](https://canvas.txstate.edu/courses/1993336/quizzes/6830611) 
-* [Project Progress](https://canvas.txstate.edu/courses/1993336/assignments/27480554) 
-* [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566) 
+## Motivation
+#### My group and I were assigned a project that required us to take some public data and preform some task using machine learning.
 
+## Description
+#### WMy group and I took stock data from (2014-2018) and set out to find which based of the data and the conclusions drawn by the different machine learning models, which stocks you should buy or not. First we started with the exploritory data analysis which consised of us taking the data and removing missing valuse and unimportant and repetitive attriubutes. Once we did that we needed to find the attributes with the highest relevance due to the sheer size of the dataset. Once we got the dataset narrowed down to the relevant columns we put the dataset therough different machine learning models. We used 80 20 training test splits for all test and based off our results we came to the conclusion that KNN and gradiant boosting yeilded the best results based on their accuracy score to what stocks where actually boguht.
 
-# PROJECT FORMAT
+## How to Use and Run
+#### In this repository there are lots of pictures and charts, all of those are available inside the presentation. The important parts for the program include the .py file and the .cvs data files. Open the .py file and download all dependencies un-accounted for which you can tell by looking at the first coding cell in the notebook (ones you don't have will br highlighted). You can run all the cells one by one or you can run all at the top. here we made markdown comments explaining the reasons behind the types of test we are running
 
-#  <Title>
-**<All Authors>** 
-
-## Project Summary
-
-<Complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566) assignment submission. See github.com repositories on how people shortblurb thre project e.g. REMOVE: It is a standalone section. It is written to give the reader a summary of your work. Be sure to specific, yet brief. Write this paragraph last (150-300 words)
-
-<Fully rewrite the summary as the last step for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-
-## Problem Statement 
-
-< Complete for [Project Progress](https://canvas.txstate.edu/courses/1993336/assignments/27480554)>
-
-* Give a clear and complete statement of the problem.
-* What is the benchmark you are using.  Why?  
-* Where does the data come from, what are its characteristics? Include informal success measures (e.g. accuracy on cross-validated data, without specifying ROC or precision/recall etc) that you planned to use. 
-* What do you hope to achieve?>
-
-<Expand and Complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-## Dataset 
-
-<Complete for [Project Progress](https://canvas.txstate.edu/courses/1993336/assignments/27480554)>
-
-* Description of the dataset (dimensions, names of variables with their description) If in doubt, use 3.1-3.3. [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) as a guideline.  
-* If you are using benchmarks, describe the data in details. If you are collecting data, describe why, how, data format, volume, labeling, etc.>
-
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-* What Processing Tools have you used.  Why?  Add final images from jupyter notebook. Use questions from 3.4 of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper for a guide.>  
-
-
-## Exploratory Data Analysis 
-
-<Complete for [Project Progress](https://canvas.txstate.edu/courses/1993336/assignments/27480554)>
-
-* What EDA graphs you are planning to use? 
-* Why? - Add figures if any
-
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-* Describe the methods you explored (usually algorithms, or data wrangling approaches). 
-  * Include images. 
-* Justify methods for feature normalization selection and the modeling approach you are planning to use. 
-
-## Data Preprocessing 
-
-<Complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-
-* Have you considered Dimensionality Reduction or Scaling? 
-  * If yes, include steps here.  
-* What did you consider but *not* use? Why? 
-
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-
-## Machine Learning Approaches
-
-<Complete [Project Progress](https://canvas.txstate.edu/courses/1993336/assignments/27480554)>
-
-* What is your baseline evaluation setup? Why? 
-* Describe the ML methods that you consider using and what is the reason for their choice? 
-   * What is the family of machine learning algorithms you are using and why?
-
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-* Describe the methods/datasets (you can have unscaled, selected, scaled version, multiple data farmes) that you ended up using for modeling. 
-
-* Justify the selection of machine learning tools you have used
-  * How they informed the next steps? 
-* Make sure to include at least twp models: (1) baseline model, and (2) improvement model(s).  
-   * The baseline model  is typically the simplest model that's applicable to that data problem, something we have learned in the class. 
-   * Improvement model(s) are available on Kaggle challenge site, and you can research github.com and papers with code for approaches.  
-
-## Experiments 
-
-<Complete for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-This section should only contain final version of the experiments. Please use visualizations whenever possible.
-* Describe how did you evaluate your solution 
-  * What evaluation metrics did you use? 
-* Describe a baseline model. 
-  * How much did your model outperform the baseline?  
-* Were there other models evaluated on the same dataset(s)? 
-  * How did your model do in comparison to theirs? 
-  * Show graphs/tables with results 
-  * Present error analysis and suggestions for future improvement. 
-
-## Conclusion
-<Complete for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-* What did not work? 
-* What do you think why? 
-* What were approaches, tuning model parameters you have tried? 
-* What features worked well and what didn't? 
-* When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. 
-* How was that a data-driven decision? Be consise, all details can be left in .ipynb
-
- 
- **Submission Format** 
- 
-1. Python code with markdown documentation, images saved in .jpg or .png format, and README.md as a project report
-2. Jupyter notebook (.ipynb) that contains full markdown sections as listed above 
-
-## Now go back and write the summary at the top of the page
+## Credits
+#### DILLON FARBER, CHRISTIAN DAVIS, QUINN TEMPLETON
